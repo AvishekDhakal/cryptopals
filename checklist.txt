@@ -1,0 +1,21 @@
+Always remember the hex is double the lenght usually so for bytes just assume its half the lenght.
+
+
+
+make sure dont care what you are dealing with just into bytes. everything to bytes
+if from hex you can use bytes.fromhex().
+
+and for string to hex 
+c = "Now that the party is jumping"
+hexv = c.encode("utf-8").hex()     so its bh byte ma lane encode le and hex ma lane byte lai
+try this 
+
+
+you can say this hext to byte and byte to hex is nothing to worry.
+
+
+
+The question asking single character may be you want too loop the characters as much as the lenght of bytes.
+
+
+
